@@ -6,6 +6,12 @@ Python Check Similarity PDF from active directory and store to csv file inspired
 pip install -r requirements.py
 ```
 
+### !! Before Use !!
+1. Install all required depedencies.
+2. Copy `cspdf.py` into directory that contains pdf file to be compared.
+3. Run `cspdf.py` script.
+4. Note: This script just work on pdf files only, if you have word document please convert it into pdf first.
+
 ### Usage
 1. Check similarity all pdf files on current active directory.
    ```sh
