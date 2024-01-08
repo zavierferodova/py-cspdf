@@ -69,7 +69,7 @@ def compare_with_all_pdfs(target_pdf, output_csv, verbose=False):
                 similarity_percentage = calculate_similarity(target_text, compare_text)
                 print(f'{target_pdf:<30} {pdf_file:<30} {similarity_percentage:<20}')
 
-    print(f"Comparison results exported to {output_csv}")
+    print(f"\nComparison results exported to {output_csv}")
 
 def compare_all_pdfs(pdf_files, output_csv):
     total_comparisons = len(pdf_files) * (len(pdf_files) - 1) // 2
