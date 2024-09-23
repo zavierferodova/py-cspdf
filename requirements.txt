@@ -1,2 +1,5 @@
 pdfminer
 tqdm
+PyMuPDF
+opencv-python
+scikit-image

@@ -21,14 +21,26 @@ pip install -r requirements.py
    ```sh
    python cspdf.py -t a.pdf -o comparison.csv
    ```
-3. Get help
+3. Check similarity including image comparison (slow processing)
+   ```sh
+   # Just add -i or --image argument
+   python cspdf.py -i -t a.pdf -o comparison.csv
+   ```
+5. Get help
    ```sh
    python cspdf.py -h
    ```
 
+### Similarity Check Methods 
+1. Text similarity with Sequence Matcher
+2. Image similarity with Structural Similarity Index (SSIM)
+
 ### Libraries
 1. [PDFMiner](https://pypi.org/project/pdfminer/)
-2. [TQDM Progress Bar](https://tqdm.github.io)
+2. [PyMuPDF](https://pymupdf.readthedocs.io/)
+3. [OpenCV Python](https://opencv.org/get-started/)
+4. [Scikit Image](https://scikit-image.org)
+5. [TQDM Progress Bar](https://tqdm.github.io)
 
 ### Credits
 Made by Zavier, enjoyy ✨
